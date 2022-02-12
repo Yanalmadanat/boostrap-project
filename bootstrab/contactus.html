@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js> </script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+	<script src="https://kit.fontawesome.com/197d1cb87f.js"></script>
+<link rel="stylesheet"  href="fonts/fontawesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/e1c4520a70.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Fjalla+One&family=Moo+Lah+Lah&family=Moon+Dance&family=Open+Sans+Condensed:wght@700&family=Shizuru&family=The+Nautigal:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+	<title>CNC Website</title>
+	<style>
+		body{
+			font-family: 'Fjalla One', sans-serif;
+		}
+		#items{
+			font-weight: bold;
+		}
+		#list{
+			font-weight: bold;
+		}
+		
+		#price{
+			font-weight: bold;
+			margin-left: 50px;
+			margin-top: 10px;
+
+		}
+		#form1{
+			background-color: lightblue;
+			font-weight: bold;
+			color: black;
+		}
+		#list2{
+			list-style-type: none;
+
+		}
+		#list2 a{
+			text-decoration-style: none;
+			color: black;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		#list2 i{
+			margin-right: 10px;
+		}
+		.footer1{
+			background-color: grey;
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-dark navbar-info navbar-fixed-top"  >
+	<a href="#" class="navbar-brand"><img src="logo.jfif" style="width: 60px; height: 35px;"></a>
+	<ul class="nav navbar-nav ml-auto mr-auto" id="items" style="font-weight: bold;font-size: large;">
+				<li class="nav-item active" ><a href="bootstrap.html" class="nav-link">Home</a></li>
+		<li class="nav-item"><a href="aboutus.html" class="nav-link">About us</a></li>
+		<li class="nav-item dropdown"><a href="services.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+			<div class="dropdown-menu">
+				<a href="services.html" class="dropdown-item">Maintenance</a>
+				<a href="services.html" class="dropdown-item">Shipping</a>
+				<a href="services.html" class="dropdown-item">Laser parts</a>
+				<a href="services.html" class="dropdown-item">Mechanical parts</a>
+			</div>
+		</li>
+		<li class="nav-item"><a href="contactus.html" class="nav-link">Contact us</a></li>
+	</ul>
+</nav>
+<br>
+<br>
+<br>
+<section>
+	<div class="container-fluid" id="form1">
+	<h1>Contact us</h1>
+	<div class="form-group">
+		<label for="name1">First Name :</label>
+		<input type="text" name="name1" id="name1" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="name2">Last Name :</label>
+		<input type="text" name="name2" id="name2" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="name3">Choose Your Country :</label>
+		<select id="name3" class="form-control">
+			<option value="USA">USA</option>
+			<option value="Australia">Australia</option>
+			<option value="UK">UK</option>
+			<option value="Russia">Russia</option>
+			<option value="Middle East">Middle East</option>
+			<option value="Germany">Germany</option>
+			<option value="Japan">Japan</option>
+			<option value="Canada">Canada</option>
+
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="name4">Any Suggestions :</label>
+		<textarea id="name4" rows="6" placeholder="Write Here..." class="form-control"></textarea>
+	</div>
+	<input type="submit" name="Submit" value="Submit" style="font-weight: bold; width: 150px; height: 40px; background-color: black; color: white;" >
+	</div>
+
+<br>
+</section>
+
+<footer class="footer1">
+	<div class="row" >
+		<div class="col-lg-1"></div>
+	<div class="col-lg-5">
+		<img src="logo.jfif" alt="Page not found" width="200px" height="150px">
+	</div>
+	<div class="col-lg-6">
+		<h2>Contact us on Social Media</h2>
+		<ul id="list2">
+			<li><a href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a></li>
+			<li><a href="#"><i class="fa-brands fa-instagram-square"></i>Instgram</a></li>
+			<li><a href="#"><i class="fa-brands fa-twitter-square"></i>Twitter</a></li>
+		</ul>
+	</div>
+	</div>
+</footer>
+</body>
+</html>
